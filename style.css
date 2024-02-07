@@ -32,7 +32,7 @@ span, a
 
 #hero img
 {
-    margin-bottom: 72px;
+    margin-bottom: 58px;
 }
 
 
@@ -53,6 +53,7 @@ p, #footer
     border: 1px solid #ECEFF2;
     margin: 0 auto 8px;
 }
+
 
 #footer a + a
 {
