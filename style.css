@@ -1,63 +1,102 @@
-body, a 
+.page
 {
-    font-family: "Open Sans", sans-serif;
+    width: 1000px;
+    margin: 0px auto;
+    padding-top: 65px;
+}
+
+body
+{
+    margin: 0;
+    background: linear-gradient(180deg, rgba(12,224,71,0) 82%, rgba(227,255,248,0) 100%);
+    min-height: 100vh;
+}
+
+main
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero_text
+{
+    width: 489px;
+    text-align: left;
 }
 
 h1
 {
-    font-family: "Inter", sans-serif;
+    font-family: "Mulish", sans-serif;
     font-size: 49px;
     line-height: 56px;
     font-weight: normal;
-    text-align: center;
+    width: 489px;
+    color: #1F1534;
 }
 
 h1 span{
     font-weight: bold;
     margin-bottom: 32px;
+    color: #89C5CC;
 }
 
-
-span, a 
-{
-    color: #FF9900;
-}
-
-#hero
-{
-    width: 592px;
-    margin: 0px auto 72px;
-    text-align: center;
-}
-
-#hero img
-{
-    margin-bottom: 58px;
-}
-
-
-p, #footer
+.hero_text p
 {
     color: #7D7987;
     font-family: "Open Sans", sans-serif;
     font-size: 14px;
     line-height: 28px;
+    margin: 40px auto 40px;
+}
+
+button
+{
+    font-family: "DM Sans",sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    text-transform: uppercase;
+    color: #F9F9F9;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 14px 32px 15px;
+
+    border: none;
+    border-radius: 4px;
+
+    background: #69B99D;
+
+    cursor: pointer;
+}
+
+button:hover
+{
+    background:#3c9173; ;
+}
+
+
+#girl
+{
+    width: 417px;
+}
+
+footer
+{
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    line-height: 28px;
     text-align: center;
-    
+    color: #1F1534;
+    margin-top: 80px;
 }
 
-.line
+footer a
 {
-    width: 568px;
-    height: 0px;
-    border: 1px solid #ECEFF2;
-    margin: 0 auto 8px;
-}
-
-
-#footer a + a
-{
-    margin-left: 28px;
+    text-decoration: none;
+    color: #000;
 }
 
 #balls
@@ -65,4 +104,36 @@ p, #footer
     position: fixed;
     bottom: 0px;
     right: 0px;
+}
+
+nav
+{
+    font-family: "Mulish", sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 55px;
+}
+
+ul
+{
+    list-style: none;
+    display: flex;
+    gap: 48px;
+    margin: 0;
+    padding: 0;
+}
+
+ul li a:hover
+{
+    font-weight: bold;
+    opacity: 1;
+}
+
+ul li a
+{
+    text-decoration: none;
+    color: #1F1534;
+    font-size: 18px;
+    opacity: 0.5;
 }
